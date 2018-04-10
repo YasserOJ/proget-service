@@ -12,6 +12,8 @@ var eet= mongoose.Schema({
         required:true
     }
 });
-var CandidatSchema = mongoose.Schema({
+var candidatSchema = mongoose.Schema({
 
 })
+var Candidat = module.exports = mongoose.model('Candidat', candidatSchema);
+module.exports=Candidat;
