@@ -13,10 +13,10 @@ var recordschema = mongoose.Schema({
         default: Date.now
     },
     field:{
-        type: String
+        type: [String]
     },
     position:{
-        type: String
+        type: [String]
     },
     keyword:{
         type: String
