@@ -7,9 +7,7 @@ var optionSchema = mongoose.Schema({
     position:{
         type: String,
         required:true
-    },
-    email:{
-        type: String,
-        required:true
     }
-})
+});
+var Option = module.exports = mongoose.model('Option', optionSchema);
+module.exports=Option;
