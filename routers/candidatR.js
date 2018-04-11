@@ -12,4 +12,23 @@ router.get('/all',function (req,res) {
         res.send(result);
     })
 });
+router.get('/login/:emailoruser/:password/',function (req, res) {
+    var obj1= {
+        email: req.params.emailoruser,
+        password : req.params.password
+    };
+    var obj2= {
+        userName: req.params.emailoruser,
+        password : req.params.password
+    };
+    var obj3={
+        $or:[obj1, obj2]
+    };
+    Candidat.find(obj3,function (err,result) {
+        if(err){
+            throw err;
+        }
+        res.send(result);
+    })
+});
 module.exports=router;
