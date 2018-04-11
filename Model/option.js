@@ -11,5 +11,5 @@ var optionSchema = mongoose.Schema({
     email:{
         type: String,
         required:true
-    },
+    }
 })
