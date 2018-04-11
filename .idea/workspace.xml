@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5786d4-cca7-49be-aa88-132aa717e2fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Model/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/candidat.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/candidat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/option.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/option.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -74,18 +73,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="221">
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="option.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="option.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Model/option.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="postule.js" pinned="false" current-in-tab="false">
@@ -120,7 +123,6 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Model/postule.js" />
-        <option value="$PROJECT_DIR$/Model/option.js" />
         <option value="$PROJECT_DIR$/routers/adminR.js" />
         <option value="$PROJECT_DIR$/routers/optionR.js" />
         <option value="$PROJECT_DIR$/routers/postuleR.js" />
@@ -132,6 +134,7 @@
         <option value="$PROJECT_DIR$/routers/clientR.js" />
         <option value="$PROJECT_DIR$/Model/candidat.js" />
         <option value="$PROJECT_DIR$/Model/admin.js" />
+        <option value="$PROJECT_DIR$/Model/option.js" />
       </list>
     </option>
   </component>
@@ -227,12 +230,12 @@
       <workItem from="1523372581044" duration="40000" />
       <workItem from="1523373321188" duration="5950000" />
       <workItem from="1523441377189" duration="304000" />
-      <workItem from="1523443165859" duration="4285000" />
+      <workItem from="1523443165859" duration="4872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61487000" />
+    <option name="totallyTimeSpent" value="62074000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,9 +615,6 @@
     <entry file="file://$PROJECT_DIR$/Model/postule.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/option.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Model/candidat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -624,8 +624,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="221">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/option.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
