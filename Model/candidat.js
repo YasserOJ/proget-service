@@ -90,16 +90,14 @@ var candidatSchema = mongoose.Schema({
         required:true
     },
     experince:{
-        type: [eet],
-        required:true
+        type: [eet]
     },
     training:{
         type: [eet],
         required:true
     },
     skills:{
-        type:[String],
-        required:true
+        type:[String]
     },
     language:{
         type: [String],
