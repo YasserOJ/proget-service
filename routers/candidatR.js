@@ -31,14 +31,58 @@ router.get('/login/:emailoruser/:password/',function (req, res) {
         res.send(result);
     })
 });
+router.get('/byid/:_id',function (req,res) {
+    obj={
+        _id:req.params._id
+    };
+    Candidat.find(obj,function (err,result) {
+        if(err){
+            throw err;
+        }
+        res.send(result[0]);
+    })
+});
 router.get('/byfname/:name',function (req,res) {
     var obj={fname:req.params.name};
-    Client.find(obj,function (err,result) {
+    Candidat.find(obj,function (err,result) {
         if(err){
             throw err;
         }
         res.send(result);
-        console.log("achieved")
+    })
+});
+router.get('/byfield/:field', function (req,res) {
+    var obj ={field:req.params.field};
+    Candidat.find(obj,function (err,result) {
+        if(err){
+            throw err;
+        }
+        res.send(result);
+    })
+});
+router.get('/byfandp/:field/:position', function (req,res) {
+    var obj ={
+        field:req.params.field,
+        postion:req.params.position
+    };
+    Candidat.find(obj,function (err,result) {
+        if(err){
+            throw err;
+        }
+        res.send(result);
+    })
+});
+router.get('/byfandpandy/:field/:position/:experience', function (req,res) {
+    var obj ={
+        field:req.params.field,
+        postion:req.params.position,
+        experience_years:req.params.experience
+    };
+    Candidat.find(obj,function (err,result) {
+        if(err){
+            throw err;
+        }
+        res.send(result);
     })
 });
 module.exports=router;
