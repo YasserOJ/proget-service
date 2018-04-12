@@ -31,7 +31,7 @@ router.get('/login/:emailoruser/:password/',function (req, res) {
         res.send(result);
     })
 });
-router.get('/canname/:name',function (req,res) {
+router.get('/byfname/:name',function (req,res) {
     var obj={fname:req.params.name};
     Client.find(obj,function (err,result) {
         if(err){
