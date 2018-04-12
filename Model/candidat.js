@@ -13,11 +13,11 @@ var eet= mongoose.Schema({
     }
 });
 var candidatSchema = mongoose.Schema({
-    first_name:{
+    fname:{
         type: String,
         required:true
     },
-    last_name:{
+    lname:{
         type: String,
         required:true
     },

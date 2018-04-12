@@ -31,13 +31,14 @@ router.get('/login/:emailoruser/:password/',function (req, res) {
         res.send(result);
     })
 });
-router.get('/byfname/:first_name',function (req,res) {
-    var obj={first_name:req.params.first_name};
+router.get('/canname/:name',function (req,res) {
+    var obj={fname:req.params.name};
     Client.find(obj,function (err,result) {
         if(err){
             throw err;
         }
         res.send(result);
+        console.log("achieved")
     })
 });
 module.exports=router;
