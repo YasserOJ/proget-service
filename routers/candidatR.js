@@ -31,4 +31,13 @@ router.get('/login/:emailoruser/:password/',function (req, res) {
         res.send(result);
     })
 });
+router.get('/byfname/:first_name',function (req,res) {
+    var obj={first_name:req.params.first_name};
+    Client.find(obj,function (err,result) {
+        if(err){
+            throw err;
+        }
+        res.send(result);
+    })
+});
 module.exports=router;

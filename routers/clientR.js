@@ -65,7 +65,7 @@ router.get('/byid/:_id',function (req,res) {
     obj={
         _id:req.params._id
     };
-    Client.get(obj,function (err,result) {
+    Client.find(obj,function (err,result) {
         if(err){
             throw err;
         }
