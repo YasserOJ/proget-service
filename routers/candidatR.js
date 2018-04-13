@@ -112,13 +112,5 @@ router.put('/up/:_id',function (req,res) {
         res.send(ibody);
     })
 });
-router.delete('/testdel/:_id', function (req,res) {
-    var id ={_id:req.params._id};
-    Candidat.remove(id, function (err,result) {
-        if (err){
-            throw err;
-        }
-        res.send(result);
-    })
-});
+
 module.exports=router;
