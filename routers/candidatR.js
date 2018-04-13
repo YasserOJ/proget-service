@@ -85,4 +85,40 @@ router.get('/byfandpandy/:field/:position/:experience', function (req,res) {
         res.send(result);
     })
 });
+router.post('/register',function (req,res) {
+    var ibody= req.body;
+    Candidat.create(ibody,function (err,ibody) {
+        if(err){
+            throw (err);
+        }
+        res.send(ibody);
+    })
+});
+router.delete('/del/:_id',function (req,res) {
+    var obj={_id:req.params};
+    Client.findByIdAndRemove(obj,function (err,result) {
+        if(err){
+            throw err;
+        }
+        res.send(result);
+    })
+});
+router.put('/up/:_id',function (req,res) {
+    var ibody=req.body;
+    Cabdidat.remove(ibody,function (err,ibody) {
+        if(err){
+            throw err;
+        }
+        res.send(ibody);
+    })
+});
+router.delete('/testdel/:_id', function (req,res) {
+    var id ={_id:req.params._id};
+    Candidat.remove(id, function (err,result) {
+        if (err){
+            throw err;
+        }
+        res.send(result);
+    })
+});
 module.exports=router;

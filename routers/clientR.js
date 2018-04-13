@@ -99,4 +99,13 @@ router.put('/up/:_id',function (req,res) {
         res.send(ibody);
     })
 });
+router.delete('/del/:_id', function (req,res) {
+    var id ={_id:req.params._id};
+    Candiat.remove(id, function (err,result) {
+        if (err){
+            throw err;
+        }
+        res.send(result);
+    })
+});
 module.exports=router;
