@@ -1,7 +1,6 @@
 var express = require('express');
 var router= express.Router();
 Admin = require('../Model/admin');
-/*connex = require('./Connection');*/
 var bodyparser=require('body-parser');
 router.use(bodyparser.json());
 
