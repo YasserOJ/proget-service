@@ -43,18 +43,17 @@ router.get('/byid/:_id',function (req,res) {
         res.send(result[0]);
     })
 });
-router.get('/byfname/:name',function (req,res) {
-    var obj={fname:req.params.name};
-    Admin.find(obj,function (err,result) {
-        if(err){
-            throw err;
-        }
-        res.send(result);
-    })
-});
-router.get('/byfield/:field', function (req,res) {
-    var obj ={field:req.params.field};
-    Admin.find(obj,function (err,result) {
+router.get('/byforlname/:flname',function (req,res) {
+    var obj1= {
+        first_name:req.params.flname
+    };
+    var obj2= {
+        last_name:req.params.flname
+    };
+    var obj3={
+        $or:[obj1, obj2]
+    };
+    Admin.find(obj3,function (err,result) {
         if(err){
             throw err;
         }
