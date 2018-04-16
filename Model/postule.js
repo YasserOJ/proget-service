@@ -34,4 +34,3 @@ var postuleSchema = mongoose.Schema({
     }
 });
 var Postule = module.exports = mongoose.model('Postule', postuleSchema);
-module.exports=Postule;

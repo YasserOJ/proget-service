@@ -30,7 +30,7 @@ router.get('/byyear/:year',function (req,res) {
         res.send(result);
     })
 });
-router.get('/byyear/:year/:name',function (req,res) {
+router.get('/yearnname/:year/:name',function (req,res) {
     obj={
         year:req.params.year,
         client_name:req.params.name
@@ -42,7 +42,7 @@ router.get('/byyear/:year/:name',function (req,res) {
         res.send(result);
     })
 });
-router.get('/byyear/:year/:month/:name',function (req,res) {
+router.get('/byyandmandn/:year/:month/:name',function (req,res) {
     obj={
         year:req.params.year,
         month:req.params.month,

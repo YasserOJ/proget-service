@@ -108,4 +108,3 @@ var candidatSchema = mongoose.Schema({
     }
 });
 var Candidat = module.exports = mongoose.model('Candidat', candidatSchema);
-module.exports=Candidat;

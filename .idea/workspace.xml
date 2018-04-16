@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5786d4-cca7-49be-aa88-132aa717e2fd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Model/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/candidat.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/candidat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/option.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/option.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/postule.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/postule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/record.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/record.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routers/recordR.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/recordR.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,7 +28,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="-154">
               <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
@@ -37,20 +43,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="record.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/record.js">
+      <file leaf-file-name="option.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/option.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recordR.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="client.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="candidat.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/candidat.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="110" selection-start-line="110" selection-end-line="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Model/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="29" selection-start-line="28" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="record.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/record.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postule.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/postule.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recordR.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routers/recordR.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-142">
-              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+            <state relative-caret-position="164">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -84,19 +135,19 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/routers/Connection.js" />
         <option value="$PROJECT_DIR$/Model/test.js" />
-        <option value="$PROJECT_DIR$/Model/client.js" />
-        <option value="$PROJECT_DIR$/Model/admin.js" />
-        <option value="$PROJECT_DIR$/Model/option.js" />
-        <option value="$PROJECT_DIR$/Model/candidat.js" />
         <option value="$PROJECT_DIR$/routers/candidatR.js" />
         <option value="$PROJECT_DIR$/routers/adminR.js" />
         <option value="$PROJECT_DIR$/routers/clientR.js" />
         <option value="$PROJECT_DIR$/routers/optionR.js" />
-        <option value="$PROJECT_DIR$/Model/postule.js" />
         <option value="$PROJECT_DIR$/routers/postuleR.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/Model/record.js" />
         <option value="$PROJECT_DIR$/routers/recordR.js" />
+        <option value="$PROJECT_DIR$/Model/record.js" />
+        <option value="$PROJECT_DIR$/Model/postule.js" />
+        <option value="$PROJECT_DIR$/Model/option.js" />
+        <option value="$PROJECT_DIR$/Model/client.js" />
+        <option value="$PROJECT_DIR$/Model/candidat.js" />
+        <option value="$PROJECT_DIR$/Model/admin.js" />
       </list>
     </option>
   </component>
@@ -196,7 +247,7 @@
       <workItem from="1523554070126" duration="5231000" />
       <workItem from="1523617829201" duration="9424000" />
       <workItem from="1523880205754" duration="527000" />
-      <workItem from="1523882848085" duration="11493000" />
+      <workItem from="1523882848085" duration="12285000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1523556108118</created>
@@ -216,7 +267,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97867000" />
+    <option name="totallyTimeSpent" value="98659000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -534,20 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/candidat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routers/candidatR.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -562,38 +599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/option.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routers/postuleR.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-431">
           <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/postule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="29" column="6" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -611,17 +620,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/record.js">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="-154">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routers/recordR.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+        <state relative-caret-position="164">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/record.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/postule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/option.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/candidat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="29" selection-start-line="28" selection-end-line="30" />
         </state>
       </provider>
     </entry>

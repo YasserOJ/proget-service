@@ -37,4 +37,4 @@ var recordschema = mongoose.Schema({
     }
 });
 var Record = module.exports = mongoose.model('Record', recordschema);
-module.exports=Record;
+

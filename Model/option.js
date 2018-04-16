@@ -10,4 +10,3 @@ var optionSchema = mongoose.Schema({
     }
 });
 var Option = module.exports = mongoose.model('Option', optionSchema);
-module.exports=Option;

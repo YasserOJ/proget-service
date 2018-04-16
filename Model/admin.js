@@ -26,4 +26,5 @@ var adminSchema = mongoose.Schema({
     }
 });
 var Admin = module.exports = mongoose.model('Admin', adminSchema);
-module.exports=Admin;
+/*
+module.exports=Admin;*/
