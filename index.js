@@ -11,6 +11,10 @@ var admin=require('./routers/adminR');
 app.use("/Admin",admin);
 var option=require('./routers/optionR');
 app.use("/Option",option);
+var postule=require('./routers/postuleR');
+app.use("/Postule",postule);
+var record=require('./routers/recordR');
+app.use("/Record",record);
 app.listen(2222,function (err) {
     if(err){
         throw err;
