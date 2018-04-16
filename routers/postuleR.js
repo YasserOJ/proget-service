@@ -46,7 +46,57 @@ router.get('/byyear/:year/:month/:day',function (req,res) {
         res.send(result);
     })
 });
-router.post('/register',function (req,res) {
+router.get('/byfiled/:field',function (req,res) {
+    obj={
+        field:req.params.field
+    };
+    Postule.find(obj,function (err,result) {
+        if(err){
+            throw (err);
+        }
+        res.send(result);
+    })
+});
+router.get('/byandm/:year/:field',function (req,res) {
+    obj={
+        year:req.params.year,
+        field:req.params.field
+    };
+    Postule.find(obj,function (err,result) {
+        if(err){
+            throw (err);
+        }
+        res.send(result);
+    })
+});
+router.get('/byandm/:year/:month/:field',function (req,res) {
+    obj={
+        year:req.params.year,
+        month:req.params.month,
+        field:req.params.field
+    };
+    Postule.find(obj,function (err,result) {
+        if(err){
+            throw (err);
+        }
+        res.send(result);
+    })
+});
+router.get('/byandm/:year/:month/:day/:field',function (req,res) {
+    obj={
+        year:req.params.year,
+        month:req.params.month,
+        day:req.params.day,
+        field:req.params.field
+    };
+    Postule.find(obj,function (err,result) {
+        if(err){
+            throw (err);
+        }
+        res.send(result);
+    })
+});
+router.post('/add',function (req,res) {
     var ibody= req.body;
     Postule.create(ibody,function (err,ibody) {
         if(err){

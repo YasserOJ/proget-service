@@ -27,6 +27,10 @@ var postuleSchema = mongoose.Schema({
         min:1,
         max:31,
         required:true
+    },
+    field:{
+        type:String,
+        required: true
     }
 });
 var Postule = module.exports = mongoose.model('Postule', postuleSchema);
