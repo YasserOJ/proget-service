@@ -9,8 +9,8 @@ var candidat=require('./routers/candidatR');
 app.use("/Candidat",candidat);
 var admin=require('./routers/adminR');
 app.use("/Admin",admin);
-var admin=require('./routers/optionR');
-app.use("/Admin",admin);
+var option=require('./routers/optionR');
+app.use("/Option",option);
 app.listen(2222,function (err) {
     if(err){
         throw err;
