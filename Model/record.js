@@ -8,15 +8,29 @@ var recordschema = mongoose.Schema({
         type: String,
         required: true
     },
-    time:{
-        type: Date,
-        default: Date.now
+    year:{
+        type:Number,
+        min:2018,
+        max:3000,
+        required:true
+    },
+    month:{
+        type:Number,
+        min:1,
+        max:12,
+        required:true
+    },
+    day:{
+        type:Number,
+        min:1,
+        max:31,
+        required:true
     },
     field:{
-        type: [String]
+        type: String
     },
     position:{
-        type: [String]
+        type: String
     },
     keyword:{
         type: String
