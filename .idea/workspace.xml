@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5786d4-cca7-49be-aa88-132aa717e2fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Model/record.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/record.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routers/recordR.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/recordR.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -198,7 +196,7 @@
       <workItem from="1523554070126" duration="5231000" />
       <workItem from="1523617829201" duration="9424000" />
       <workItem from="1523880205754" duration="527000" />
-      <workItem from="1523882848085" duration="8609000" />
+      <workItem from="1523882848085" duration="9065000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1523556108118</created>
@@ -218,7 +216,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94983000" />
+    <option name="totallyTimeSpent" value="95439000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
