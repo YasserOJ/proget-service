@@ -29,7 +29,7 @@ router.get('/byfield/:field',function (req,res) {
         res.send(result);
     })
 });
-router.post('/add',function (req,res) {
+router.post('/addfld',function (req,res) {
     var ibody= req.body;
     Option.create(ibody,function (err,ibody) {
         if(err){
