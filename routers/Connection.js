@@ -1,5 +1,5 @@
 var mongoose= require('mongoose');
-var con =mongoose.connect('mongodb://Yasser@localhost:27017/proget_db',function (err) {
+var con =mongoose.connect('mongodb://yasser:yasser@localhost:27017/proget_db?authMechanism=SCRAM-SHA-1',function (err) {
 
     if(err) throw  err;
 
