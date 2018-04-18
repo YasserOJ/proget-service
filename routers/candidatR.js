@@ -71,6 +71,17 @@ router.get('/byfandp/:field/:position', function (req,res) {
         res.send(result);
     })
 });
+router.get('/bygender/:gender',function (req,res) {
+    var obj={
+      gender:req.params.gender
+    };
+    Candidat.find(obj,function(err,result){
+        if(err){
+            throw err;
+        }
+        res.send(result);
+    })
+});
 router.get('/byfandpandy/:field/:position/:experience', function (req,res) {
     var obj ={
         field:req.params.field,
@@ -78,6 +89,56 @@ router.get('/byfandpandy/:field/:position/:experience', function (req,res) {
         experience_years:req.params.experience
     };
     Candidat.find(obj,function (err,result) {
+        if(err){
+            throw err;
+        }
+        res.send(result);
+    })
+});
+router.get('/bygender/:gender',function (req,res) {
+    var obj={
+        gender:req.params.gender
+    };
+    Candidat.find(obj,function(err,result){
+        if(err){
+            throw err;
+        }
+        res.send(result);
+    })
+});
+router.get('/byfandg/:field/:gender',function (req,res) {
+    var obj={
+        field:req.params.field,
+        gender:req.params.gender
+    };
+    Candidat.find(obj,function(err,result){
+        if(err){
+            throw err;
+        }
+        res.send(result);
+    })
+});
+router.get('/byfandpandg/:field/:position/:gender',function (req,res) {
+    var obj={
+        field:req.params.field,
+        position:req.params.position,
+        gender:req.params.gender
+    };
+    Candidat.find(obj,function(err,result){
+        if(err){
+            throw err;
+        }
+        res.send(result);
+    })
+});
+router.get('/byfandpandeandg/:field/:position/:experience/:gender',function (req,res) {
+    var obj={
+        field:req.params.field,
+        position:req.params.position,
+        experience_years:req.params.experience,
+        gender:req.params.gender
+    };
+    Candidat.find(obj,function(err,result){
         if(err){
             throw err;
         }
