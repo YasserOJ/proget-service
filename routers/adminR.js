@@ -72,7 +72,7 @@ router.post('/register',function (req,res) {
     var ibody= req.body;
     Admin.create(ibody,function (err,ibody) {
         if(err){
-            throw (err);
+            console.log('used');
         }
         res.send(ibody);
     })

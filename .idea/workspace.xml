@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5786d4-cca7-49be-aa88-132aa717e2fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/routers/candidatR.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/candidatR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/adminR.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/adminR.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,11 +38,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="candidatR.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="candidatR.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routers/candidatR.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="126" column="47" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="47" />
+            <state relative-caret-position="-579">
+              <caret line="107" column="3" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminR.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routers/adminR.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -74,7 +93,6 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Model/test.js" />
-        <option value="$PROJECT_DIR$/routers/adminR.js" />
         <option value="$PROJECT_DIR$/routers/clientR.js" />
         <option value="$PROJECT_DIR$/routers/optionR.js" />
         <option value="$PROJECT_DIR$/routers/postuleR.js" />
@@ -84,10 +102,11 @@
         <option value="$PROJECT_DIR$/Model/postule.js" />
         <option value="$PROJECT_DIR$/Model/option.js" />
         <option value="$PROJECT_DIR$/Model/candidat.js" />
-        <option value="$PROJECT_DIR$/Model/admin.js" />
         <option value="$PROJECT_DIR$/routers/Connection.js" />
         <option value="$PROJECT_DIR$/Model/client.js" />
         <option value="$PROJECT_DIR$/routers/candidatR.js" />
+        <option value="$PROJECT_DIR$/Model/admin.js" />
+        <option value="$PROJECT_DIR$/routers/adminR.js" />
       </list>
     </option>
   </component>
@@ -188,7 +207,7 @@
       <workItem from="1523617829201" duration="9424000" />
       <workItem from="1523880205754" duration="527000" />
       <workItem from="1523882848085" duration="12887000" />
-      <workItem from="1524059952708" duration="7932000" />
+      <workItem from="1524059952708" duration="8612000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1523556108118</created>
@@ -208,7 +227,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107193000" />
+    <option name="totallyTimeSpent" value="107873000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,9 +240,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985755" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985755" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50074404" side_tool="true" weight="0.42647058" />
@@ -231,7 +249,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49925596" weight="0.42647058" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49925596" visible="true" weight="0.42647058" />
       <window_info id="Favorites" order="2" sideWeight="0.5014245" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -519,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/adminR.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routers/postuleR.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-431">
@@ -561,13 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routers/Connection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -579,13 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -603,6 +600,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routers/candidatR.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-579">
+          <caret line="107" column="3" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Model/candidat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1685">
@@ -610,10 +614,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/candidatR.js">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="126" column="47" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="47" />
+        <state relative-caret-position="17">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/adminR.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
         </state>
       </provider>
     </entry>
