@@ -1,5 +1,5 @@
 var mongoose= require('mongoose');
-var con =mongoose.connect('mongodb://localhost:27017/proget_db',function (err) {
+var con =mongoose.connect('mongodb://Yasser@localhost:27017/proget_db',function (err) {
 
     if(err) throw  err;
 
