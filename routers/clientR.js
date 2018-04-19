@@ -75,7 +75,10 @@ router.post('/register',function (req,res) {
    var ibody= req.body;
    Client.create(ibody,function (err,ibody) {
        if(err){
-           throw (err);
+           if(err.code===11000){
+               res.status(422).send("username or email already exists");
+           }else
+               throw (err);
        }
        res.send(ibody);
    })
@@ -92,10 +95,11 @@ router.delete('/del/:_id',function (req,res) {
 router.put('/update/:_id',function (req,res) {
     var ibody=req.body;
     Client.findByIdAndUpdate(req.params._id,ibody,function (err,ibody) {
-        /*if(err.code===11000){
-            console.log("exists")
-        }*/if(err){
-            throw err;
+        if(err){
+            if(err.code===11000){
+                res.status(422).send("username or email already exists");
+            }else
+                throw (err);
         }
         res.send(ibody);
     })

@@ -55,11 +55,15 @@ var candidatSchema = mongoose.Schema({
     },
     email:{
         type: String,
-        required:true
+        required:true,
+        lowercase:true,
+        unique:true
     },
     userName:{
         type: String,
-        required:true
+        required:true,
+        lowercase:true,
+        unique:true
     },
     password:{
         type: String,

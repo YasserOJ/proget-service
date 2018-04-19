@@ -6,7 +6,9 @@ var clientSchema = mongoose.Schema({
     },
     email:{
         type: String,
-        required: true
+        required:true,
+        lowercase:true,
+        unique:true
     },
     phone:{
         type: String,
@@ -18,7 +20,9 @@ var clientSchema = mongoose.Schema({
     },
     userName:{
         type: String,
-        required: true
+        required:true,
+        lowercase:true,
+        unique:true
     },
     password:{
         type: String,
