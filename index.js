@@ -23,6 +23,7 @@ app.use("/Postule",postule);
 var record=require('./routers/recordR');
 app.use("/Record",record);
 
+
 app.listen(2222,function (err) {
     if(err){
         throw err;

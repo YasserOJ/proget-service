@@ -106,22 +106,23 @@ router.post('/add',function (req,res) {
     })
 });
 router.delete('/del/:_id',function (req,res) {
-    var obj={_id:req.params};
-    Postule.findByIdAndRemove(obj,function (err,result) {
+
+    Postule.findByIdAndRemove(req.params._id,function (err,result) {
         if(err){
             throw err;
         }
         res.send(result);
     })
 });
-router.put('/up/:_id',function (req,res) {
+router.put('/update/:_id',function (req,res) {
     var ibody=req.body;
-    Postule.remove(ibody,function (err,ibody) {
-        if(err){
+    Postule.findByIdAndUpdate(req.params._id,ibody,function (err,ibody) {
+        /*if(err.code===11000){
+            console.log("exists")
+        }*/if(err){
             throw err;
         }
         res.send(ibody);
     })
 });
-
 module.exports=router;
