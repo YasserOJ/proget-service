@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e5786d4-cca7-49be-aa88-132aa717e2fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Model/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/candidat.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/candidat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/adminR.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/adminR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/candidatR.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/candidatR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/clientR.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/clientR.js" afterDir="false" />
-    </list>
+    <list default="true" id="8e5786d4-cca7-49be-aa88-132aa717e2fd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -114,7 +107,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -204,7 +197,7 @@
       <workItem from="1523882848085" duration="12887000" />
       <workItem from="1524059952708" duration="8612000" />
       <workItem from="1524143479362" duration="462000" />
-      <workItem from="1524144876988" duration="9190000" />
+      <workItem from="1524144876988" duration="9724000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1523556108118</created>
@@ -224,7 +217,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117525000" />
+    <option name="totallyTimeSpent" value="118059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,16 +230,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985755" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985755" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50074404" side_tool="true" weight="0.42647058" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49925596" visible="true" weight="0.42647058" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49925596" visible="true" weight="0.42647058" />
       <window_info id="Favorites" order="2" sideWeight="0.5014245" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
