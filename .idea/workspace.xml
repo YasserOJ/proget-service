@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5786d4-cca7-49be-aa88-132aa717e2fd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Model/action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/notificationCAN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/notificationCL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/panier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/actionR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/notificationCANR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/notificationCLR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/panierR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/notificationCAN.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/notificationCAN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/notificationCL.js" beforeDir="false" afterPath="$PROJECT_DIR$/Model/notificationCL.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,65 +23,28 @@
       <file leaf-file-name="candidat.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/candidat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="78" column="6" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="78" selection-end-column="6" />
+            <state relative-caret-position="117">
+              <caret line="81" column="21" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="81" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postule.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/postule.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="panier.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/panier.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="4" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="action.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/action.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notificationCL.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="notificationCL.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Model/notificationCL.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="93" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notificationCAN.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="notificationCAN.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/notificationCAN.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="panierR.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routers/panierR.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="actionR.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routers/actionR.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -154,7 +110,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -245,7 +201,7 @@
       <workItem from="1524059952708" duration="8612000" />
       <workItem from="1524143479362" duration="462000" />
       <workItem from="1524144876988" duration="9724000" />
-      <workItem from="1524228422168" duration="4859000" />
+      <workItem from="1524228422168" duration="6762000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1523556108118</created>
@@ -265,7 +221,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122918000" />
+    <option name="totallyTimeSpent" value="124821000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,23 +565,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/panierR.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/routers/actionR.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/candidat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="78" column="6" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="78" selection-end-column="6" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/routers/notificationCANR.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/postule.js">
+    <entry file="file://$PROJECT_DIR$/routers/notificationCLR.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/action.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="72" />
+        <state relative-caret-position="204">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -636,30 +588,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/action.js">
+    <entry file="file://$PROJECT_DIR$/Model/postule.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="198">
+          <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/notificationCANR.js">
+    <entry file="file://$PROJECT_DIR$/routers/panierR.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/notificationCLR.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/notificationCL.js">
+    <entry file="file://$PROJECT_DIR$/Model/candidat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="93" />
+        <state relative-caret-position="117">
+          <caret line="81" column="21" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="81" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/notificationCAN.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/notificationCL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
