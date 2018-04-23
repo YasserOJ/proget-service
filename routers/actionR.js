@@ -19,17 +19,17 @@ router.post('/add',function (req,res) {
     var ibody= req.body;
     Action.create(ibody,function (err,ibody) {
         if(err){
-            if(err.code===11000){
-                console.log("username or email already exists");
-            }else
-                throw (err);
+            throw (err);
         }
         res.send(ibody);
     })
 });
-router.delete('/del/:_id',function (req,res) {
-
-    Action.findByIdAndRemove(req.params._id,function (err,result) {
+router.delete('/del/:canid/:post_id',function (req,res) {
+    var obj={
+       candidat_id:req.params.canid,
+        post_id:req.params.post_id
+    };
+    Action.remove(obj,function (err,result) {
         if(err){
             throw err;
         }

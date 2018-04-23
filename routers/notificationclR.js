@@ -19,10 +19,7 @@ router.post('/add',function (req,res) {
     var ibody= req.body;
     Notificationcl.create(ibody,function (err,ibody) {
         if(err){
-            if(err.code===11000){
-                console.log("username or email already exists");
-            }else
-                throw (err);
+            throw (err);
         }
         res.send(ibody);
     })

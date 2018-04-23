@@ -1,10 +1,10 @@
 var mongoose =require('mongoose');
 var panierSchema = mongoose.Schema({
-    id_client:{
+    client_id:{
         type: String,
         required:true
     },
-    id_candidat:{
+    candidat_id:{
         type: String,
         required:true
     },

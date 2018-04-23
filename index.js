@@ -23,6 +23,17 @@ app.use("/Postule",postule);
 var record=require('./routers/recordR');
 app.use("/Record",record);
 
+var action=require('./routers/actionR');
+app.use("/Action",action);
+
+var panier=require('./routers/panierR');
+app.use("/Panier",panier);
+
+var notificationcan=require('./routers/notificationcanR');
+app.use("/Notificationcan",notificationcan);
+
+var notificationcl=require('./routers/notificationclR');
+app.use("/Notificationcl",notificationcl);
 
 app.listen(2222,function (err) {
     if(err){
