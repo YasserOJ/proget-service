@@ -1,6 +1,6 @@
 var mongoose =require('mongoose');
-var notificationCANSchema = mongoose.Schema({
-    candidat_id:{
+var notificationclSchema = mongoose.Schema({
+    client_id:{
         type: String,
         required:true
     },
@@ -13,4 +13,4 @@ var notificationCANSchema = mongoose.Schema({
         required:true
     }
 });
-var NotificationCAN = module.exports = mongoose.model('NotificationCAN', notificationCANSchema);
+var Notificationcl = module.exports = mongoose.model('Notificationcl', notificationclSchema);
