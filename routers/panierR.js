@@ -27,7 +27,7 @@ router.post('/add',function (req,res) {
 router.delete('/del/:client_id/:candidat_id',function (req,res) {
     var obj={
         client_id:req.params.client_id,
-        candidat_id:req.params.candidat_idid
+        candidat_id:req.params.candidat_id
     };
     Panier.remove(obj,function (err,result) {
         if(err){

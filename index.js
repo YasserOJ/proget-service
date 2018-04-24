@@ -1,6 +1,7 @@
 var express= require('express');
 var app=express();
 var connex = require('./routers/Connection');
+connex.getConnection();
 
 var bodyparser=require('body-parser');
 app.use(bodyparser.json());
